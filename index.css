@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Monda&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Monda", sans-serif;
+  outline: none;
+  border: none;
+}
+
+body {
+  background-color: black;
+  background-image: url("https://getwallpapers.com/wallpaper/full/1/7/5/44235.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  max-width: 100vw;
+  max-height: 100vh;
+  color: aliceblue;
+  margin-left: 2rem;
+}
+
+h1{
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.MainDiv {
+  width: 55rem;
+}
+
+.noTodosLeft {
+  font-size: 5rem;
+  color: azure;
+  text-align: center;
+}
+
+.createTODO {
+  margin: 3rem auto;
+  padding-top: 2rem;
+}
+
+.createNewTODO,
+.displayNewTODO,
+.timeLimit {
+  background-color: rgb(82, 80, 80);
+  color: white;
+  width: 420px;
+  padding-left: 1rem;
+  font-size: 1.8rem;
+  border-radius: 10px;
+}
+.timeLimit {
+  width: 200px;
+  margin-left: 1.4rem;
+  font-size: 1.5rem;
+}
+.displayTODO {
+  margin-top: 1rem;
+}
+
+.displayNewTODO {
+  width: 450px;
+  min-height: 4rem;
+  font-size: 2rem;
+  line-height: 4rem;
+  position: relative;
+}
+
+.displayTime {
+  font-size: 1.5rem;
+  color: rgb(251, 211, 211);
+  position: absolute;
+  right: 1rem;
+  top: 0%;
+}
+
+.myBtnDone,
+.myBtnAdd,
+.myBtnDelete {
+  margin-left: 1rem;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  width: 200px;
+}
+
+.myBtnAdd {
+  background-color: #22577a;
+  color: white;
+}
+
+.myBtnAdd:hover {
+  cursor: pointer;
+  background-color: rgb(134, 194, 209);
+}
+
+.myBtnDelete {
+  background-color: #ea5455;
+  color: white;
+}
+
+.myBtnDelete:hover {
+  cursor: pointer;
+  background-color: rgb(245, 61, 61);
+}
+
+.myBtnDone {
+  width: 250px;
+  color: white;
+}
+
+.myBtnDone:hover {
+  cursor: pointer;
+}
+
+.filter-buttons {
+  display: flex;
+  height: 100px;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 5rem;
+}
+
+.displayPending,
+.displayCompleted,
+.deleteCompleted,
+.displayAll {
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  margin: 1rem;
+  font-weight: bold;
+  background-color: #867ae9;
+  color: white;
+}
+
+.deleteCompleted {
+  background-color: #ff4646;
+  color: white;
+}
+
+.displayPending:hover,
+.displayCompleted:hover,
+.deleteCompleted:hover,
+.displayAll:hover {
+  cursor: pointer;
+  background-color: rgb(56, 59, 59);
+}
+
+.deleteCompleted:hover {
+  background-color: rgb(253, 2, 2);
+}
+
+.author {
+  font-size: 2rem;
+  text-align: center;
+  color: aqua;
+  margin-top: 1rem;
+}
+
+a {
+  color: inherit;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;  
+} 
+
+.signOut{
+  padding: 10px 20px;
+  font-size: 1.6rem;
+  font-weight: bold;
+  background-color: #793d85;
+  color: white;
+  border-radius: 10px;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+.signOut:hover{
+  cursor: pointer;
+  background-color: rgb(126, 3, 18);
+}
+
+@media only screen and (max-width: 1000px) {
+  body {
+    background-color: black;
+    background-image: url("");
+  }
+}
